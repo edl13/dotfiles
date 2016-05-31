@@ -1,0 +1,30 @@
+[user]
+	name = Mark Palmeri
+	email = mlp6@duke.edu
+	signingkey = B5F1372F
+[alias]
+	co = checkout
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1210x879+0+59
+	history-view-vpane-position = 726
+	file-view-vpane-position = 747
+	main-window-view = FileView
+[svn]
+	rmdir = true
+[core]
+	editor = vim
+	autocrlf = input
+	preloadindex = true
+    fileMode = false
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+	ui = auto
+[push]
+	default = simple
