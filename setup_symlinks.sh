@@ -1,7 +1,8 @@
 #!/bin/bash
 
 cd $HOME
-for dotfile in .bashrc \
+for dotfile in .aliases \
+    .bashrc \
     .bash_profile \
     .gitconfig \
     .gitignore_global \
