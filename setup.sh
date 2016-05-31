@@ -17,3 +17,6 @@ for dotfile in .aliases \
             ln -s ~/.config/dotfiles/$dotfile
         fi
 done
+
+git clone git@github.com:robbyrussell/oh-my-zsh.git ~/.config/oh-my-zsh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
