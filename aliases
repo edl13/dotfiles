@@ -1,0 +1,6 @@
+alias gz='gzip -v'
+alias df='df -h'
+alias bz='bzip2 -v'
+alias top='top -d 1'
+alias du='du -sh'
+alias ll='ls -lh'
