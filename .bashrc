@@ -28,4 +28,9 @@ unset command_not_found_handle
 # added by Anaconda3 2.5.0 installer
 export PATH="$HOME/anaconda3/bin:$PATH"
 
+# LSTC env vars
+LSTC_LICENSE=network
+LSTC_LICENSE_SERVER=durmstrang.egr.duke.edu
+export LSTC_LICENSE LSTC_LICENSE_SERVER
+
 umask 0002

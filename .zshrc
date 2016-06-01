@@ -112,6 +112,11 @@ export PYTHONPATH="$HOME/projects"
 
 umask 0002
 
+# LSTC env vars
+LSTC_LICENSE=network
+LSTC_LICENSE_SERVER=durmstrang.egr.duke.edu
+export LSTC_LICENSE LSTC_LICENSE_SERVER
+
 # the darn tracker is a resource hog; not sure how to elegantly disable it in
 # FC20 / GNOME3, so doing this
 # [ -e /usr/bin/tracker-control ] && [ -x /usr/bin/tracker-control ] && /usr/bin/tracker-control -r > /dev/null
