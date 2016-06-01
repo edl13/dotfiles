@@ -14,7 +14,6 @@ export PATH=$PATH:$HOME'/bin:.:/usr/local/bin'
 export LS_COLORS=$LS_COLORS':di=01;33'
 export EDITOR="vi"
 export CCACHE_COMPRESS=1
-export GREP_OPTIONS='--color=auto'
 
 #set some bash "tricks"
 shopt -s cdspell
