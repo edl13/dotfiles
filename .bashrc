@@ -28,4 +28,6 @@ unset command_not_found_handle
 # added by Anaconda3 2.5.0 installer
 export PATH="$HOME/anaconda3/bin:$PATH"
 
+export PYTHONPATH="/home/mlp6/projects"
+
 umask 0002
