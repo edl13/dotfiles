@@ -14,7 +14,6 @@ export PATH=$PATH:$HOME'/bin:.:/usr/local/bin'
 export LS_COLORS=$LS_COLORS':di=01;33'
 export EDITOR="vi"
 export CCACHE_COMPRESS=1
-export GREP_OPTIONS='--color=auto'
 
 #set some bash "tricks"
 shopt -s cdspell
@@ -29,5 +28,10 @@ unset command_not_found_handle
 export PATH="$HOME/anaconda3/bin:$PATH"
 
 export PYTHONPATH="/home/mlp6/projects"
+
+# LSTC env vars
+LSTC_LICENSE=network
+LSTC_LICENSE_SERVER=durmstrang.egr.duke.edu
+export LSTC_LICENSE LSTC_LICENSE_SERVER
 
 umask 0002
