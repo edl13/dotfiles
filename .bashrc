@@ -24,8 +24,7 @@ unset command_not_found_handle
 # setup powerline
 #. /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 
-# added by Anaconda3 2.5.0 installer
-export PATH="$HOME/anaconda3/bin:$PATH"
+export PATH="/datacommons/ultrasound/anaconda3/bin:$PATH"
 
 export PYTHONPATH="/home/mlp6/projects"
 
