@@ -2,9 +2,8 @@ image: ubuntu:14.04
 
 before_script:
     - apt-get update
-    - apt-get install -y cabal-install
-    - cabal install shellcheck
+    - apt-get install -y shellcheck
 
 test:
     script: 
-    - ~/.cabal/bin/shellcheck -s bash setup.sh
+    - shellcheck -s bash setup.sh
