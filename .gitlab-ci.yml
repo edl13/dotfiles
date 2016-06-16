@@ -1,7 +1,7 @@
-image: ubuntu:14.04
+image: ubuntu:16.04
 
 before_script:
-    - apt-get install -y ShellCheck
+    - apt-get install -y shellcheck
 
 test:
     script: 
