@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$HOME"
+cd "$HOME" || exit
 for dotfile in .aliases \
     .bashrc \
     .bash_profile \
