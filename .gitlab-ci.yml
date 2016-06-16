@@ -1,7 +1,7 @@
 image: ubuntu:14.04
 
 before_script:
-    - apt-get install -y cabel-install
+    - apt-get install -y cabal-install
     - cabal install shellcheck
 
 test:
