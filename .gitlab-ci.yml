@@ -1,7 +1,7 @@
-image: ubuntu:xenial
+image: ubuntu:14.04
 
 before_script:
-    - apt install -y shellcheck
+    - apt-get install -y shellcheck
 
 test:
     script: 
