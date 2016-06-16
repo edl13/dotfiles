@@ -3,3 +3,5 @@ image: mlp6/shellcheck
 test:
     script: 
     - ~/.cabal/bin/shellcheck -s bash setup.sh
+    - ~/.cabal/bin/shellcheck -s bash .aliases
+    - ~/.cabal/bin/shellcheck -s bash .bashrc
