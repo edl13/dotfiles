@@ -1,6 +1,7 @@
 image: ubuntu:14.04
 
 test:
+    before-script:
+    - apt-get install -y shellcheck
     script: 
-    - apt-get install shellcheck
     - shellcheck -s bash setup.sh
