@@ -102,7 +102,7 @@ export CUDA_HOME=/usr/local/cuda-7.5
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64
 export PATH=${CUDA_HOME}/bin:${PATH}
 
-export PATH="/datacommons/ultrasound/anaconda3/bin:$PATH"
+export PATH="/home/mlp6/anaconda3/bin:$PATH"
 
 # update PYTHONPATH
 export PYTHONPATH="$HOME/projects"
