@@ -7,6 +7,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'mlp6/vim-lsdyna'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'flazz/vim-colorschemes'
 " Bundle 'scrooloose/syntastic'
 " Bundle 'LaTeX-Box-Team/LaTeX-Box'
 " Bundle 'tpope/vim-fugitive'
