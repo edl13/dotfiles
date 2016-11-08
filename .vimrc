@@ -41,7 +41,7 @@ set background=dark
 set nofoldenable
 "colorscheme jellybeans
 "colorscheme distinguished
-"colorscheme vividchalk
+colorscheme vividchalk
 "colorscheme solarized
 "
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
