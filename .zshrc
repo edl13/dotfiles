@@ -97,9 +97,9 @@ export XZ_OPT="--threads=0"
 #source /bin/virtualenvwrapper.sh
 
 # CUDA env vars
-export CUDA_HOME=/usr/local/cuda-7.5 
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64
-export PATH=${CUDA_HOME}/bin:${PATH}
+#export CUDA_HOME=/usr/local/cuda-7.5 
+#export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64
+#export PATH=${CUDA_HOME}/bin:${PATH}
 
 export PATH="/home/mlp6/anaconda3/bin:$PATH"
 
