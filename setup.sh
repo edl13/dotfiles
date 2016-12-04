@@ -10,7 +10,7 @@ for dotfile in .aliases \
     .vimrc \
     .zshrc
     do
-        if test -f $dotfile -a ! -L $dotfile; then
+        if test -f $dotfile -e ! -L $dotfile; then
             mv $dotfile ${dotfile}.save
         fi
         if test ! -e $dotfile; then
@@ -22,3 +22,12 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.config/oh-my-zsh
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 vim +PluginInstall +qall
+
+mkdir -p $HOME/opt
+cd $HOME/opt
+if test ! -L matlab; then
+    ln -s /usr/local/bin/matlab matlab
+fi
+if test ! -L anaconda3; then
+    ln -s $HOME/anaconda3 anaconda3
+fi

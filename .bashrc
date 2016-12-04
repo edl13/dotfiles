@@ -21,12 +21,8 @@ shopt -s nocaseglob
 
 unset command_not_found_handle
 
-# setup powerline
-#. /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
-
-export PATH="/home/mlp6/anaconda3/bin:$PATH"
-
-export PYTHONPATH="/home/mlp6/projects"
+export PATH="$HOME/opt/anaconda3/bin:$PATH"
+export PYTHONPATH="/home/mlp6/pkgs"
 
 # LSTC env vars
 LSTC_LICENSE=network

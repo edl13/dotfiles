@@ -11,7 +11,7 @@ ZSH_THEME="ys"
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -75,13 +75,6 @@ export EDITOR='vim'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# enable powerline
-#. /usr/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 . ~/.aliases
 
@@ -90,21 +83,8 @@ export HW_NO_SPLASH_SCREEN=1
 export ANTSPATH='/usr/local/ANTS/'
 export CCACHE_COMPRESS=1
 export XZ_OPT="--threads=0"
-
-# setup python virtualenv via virtualenvwrapper
-#export WORKON_HOME=$HOME/.virtualenvs
-#export PROJECT_HOME=$HOME/projects
-#source /bin/virtualenvwrapper.sh
-
-# CUDA env vars
-#export CUDA_HOME=/usr/local/cuda-7.5 
-#export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64
-#export PATH=${CUDA_HOME}/bin:${PATH}
-
-export PATH="/home/mlp6/anaconda3/bin:$PATH"
-
-# update PYTHONPATH
-export PYTHONPATH="$HOME/projects"
+export PATH="$HOME/opt/anaconda3/bin:$HOME/opt/matlab/bin/:$PATH"
+export PYTHONPATH="$HOME/pkgs"
 
 #unset command_not_found_handle
 
@@ -114,9 +94,3 @@ umask 0002
 LSTC_LICENSE=network
 LSTC_LICENSE_SERVER=durmstrang.egr.duke.edu
 export LSTC_LICENSE LSTC_LICENSE_SERVER
-
-# the darn tracker is a resource hog; not sure how to elegantly disable it in
-# FC20 / GNOME3, so doing this
-# [ -e /usr/bin/tracker-control ] && [ -x /usr/bin/tracker-control ] && /usr/bin/tracker-control -r > /dev/null
-
-#export PATH="/home/mlp6/bin/ParaView-5.0.0-Qt4-OpenGL2-MPI-Linux-64bit/bin:/home/mlp6/bin/itksnap-3.4.0-20151130-Linux-x86_64/bin:$PATH"
