@@ -20,7 +20,7 @@ done
 
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.config/oh-my-zsh
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 mkdir -p $HOME/opt
