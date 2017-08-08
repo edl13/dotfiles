@@ -28,6 +28,3 @@ cd $HOME/opt
 if test ! -L matlab; then
     ln -s /usr/local/bin/matlab matlab
 fi
-if test ! -L anaconda3; then
-    ln -s $HOME/anaconda3 anaconda3
-fi
