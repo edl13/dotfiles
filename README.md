@@ -8,7 +8,7 @@ script to work.
 ## How To Setup
 ```
 cd ``$HOME/.config``
-git clone git@gitlab.oit.duke.edu:mlp6/dotfiles.git
+git clone git@github.com:mlp6/dotfiles.git
 bash ./setup.sh
 ```
 
