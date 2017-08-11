@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/miniconda3/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -79,12 +79,8 @@ export EDITOR='vim'
 . ~/.aliases
 
 export LS_COLORS=$LS_COLORS':di=01;33'
-export HW_NO_SPLASH_SCREEN=1
-export ANTSPATH='/usr/local/ANTS/'
 export CCACHE_COMPRESS=1
 export XZ_OPT="--threads=0"
-export PATH="$HOME/opt/anaconda3/bin:$HOME/opt/matlab/bin/:$PATH"
-export PYTHONPATH="$HOME/pkgs"
 
 #unset command_not_found_handle
 

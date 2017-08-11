@@ -11,6 +11,7 @@ fi
 . ~/.aliases
 
 export PATH=$PATH:$HOME'/bin:.:/usr/local/bin'
+export PATH=$HOME"/miniconda3/bin:$PATH"
 export LS_COLORS=$LS_COLORS':di=01;33'
 export EDITOR="vi"
 export CCACHE_COMPRESS=1
@@ -21,12 +22,10 @@ shopt -s nocaseglob
 
 unset command_not_found_handle
 
-export PATH="$HOME/opt/anaconda3/bin:$PATH"
-export PYTHONPATH="/home/mlp6/pkgs"
-
 # LSTC env vars
 LSTC_LICENSE=network
 LSTC_LICENSE_SERVER=durmstrang.egr.duke.edu
 export LSTC_LICENSE LSTC_LICENSE_SERVER
 
 umask 0002
+
