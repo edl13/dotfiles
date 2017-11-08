@@ -18,6 +18,8 @@ set autoindent
 set expandtab
 set nofoldenable
 
+colorscheme slate
+
 autocmd BufRead,BufNewFile *.dyn set filetype=lsdyna
 autocmd BufRead,BufNewFile *.k set filetype=lsdyna
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
