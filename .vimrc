@@ -18,7 +18,7 @@ set autoindent
 set expandtab
 set nofoldenable
 
-colorscheme slate
+colorscheme ron
 
 autocmd BufRead,BufNewFile *.dyn set filetype=lsdyna
 autocmd BufRead,BufNewFile *.k set filetype=lsdyna
