@@ -5,6 +5,8 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'mlp6/vim-lsdyna'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 call vundle#end()  
 filetype plugin indent on
 
@@ -19,6 +21,8 @@ set expandtab
 set nofoldenable
 
 colorscheme ron
+
+map <silent> <C-n> :NERDTreeFocus<CR>
 
 autocmd BufRead,BufNewFile *.dyn set filetype=lsdyna
 autocmd BufRead,BufNewFile *.k set filetype=lsdyna
