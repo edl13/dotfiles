@@ -6,6 +6,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'mlp6/vim-lsdyna'
 Plugin 'scrooloose/nerdtree'
+" Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'python-mode/python-mode'
 call vundle#end()  
 filetype plugin indent on
 
@@ -27,3 +29,5 @@ autocmd BufRead,BufNewFile *.dyn set filetype=lsdyna
 autocmd BufRead,BufNewFile *.k set filetype=lsdyna
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 autocmd BufNewFile,BufReadPost *.shge set filetype=sh
+
+let g:pymode_python = 'python3'
