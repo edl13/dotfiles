@@ -26,7 +26,6 @@ Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/SimpylFold'
 "colors
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'jnurmine/Zenburn'
 call vundle#end()  
 
 filetype plugin indent on
@@ -45,8 +44,8 @@ set encoding=utf-8
 set noswapfile
 set nu
 
-"colorscheme ron
-colorscheme zenburn
+set background=dark
+colorscheme solarized
 
 map <silent> <C-n> :NERDTreeFocus<CR>
 
