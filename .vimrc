@@ -5,9 +5,6 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'mlp6/vim-lsdyna'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'nvie/vim-flake8'
 call vundle#end()  
 filetype plugin indent on
 
