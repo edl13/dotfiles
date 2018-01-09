@@ -20,7 +20,7 @@ dotfiles = ['.alias',
 for dotfile in dotfiles:
     if os.path.exists(dotfile):
         os.system('mv {} {}.save', (dotfile, dotfile))
-    os.system('ln -s ~/.config/dotfiles/{}', (dotfile))
+    os.system('ln -s ~/.config/dotfiles/{}'.format(dotfile))
 
 os.system('git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.config/oh-my-zsh')
 
