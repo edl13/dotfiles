@@ -8,7 +8,7 @@ try:
 except:
    sys.exit()
 
-dotfiles = ['.alias',
+dotfiles = ['.aliases',
             '.bashrc',
             '.bash_profile',
             '.gitconfig',
