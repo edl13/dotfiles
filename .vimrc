@@ -26,6 +26,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/SimpylFold'
 "colors
 Plugin 'altercation/vim-colors-solarized'
+"Plugin 'sickill/vim-monokai'
 call vundle#end()  
 
 filetype plugin indent on
@@ -46,6 +47,7 @@ set nu
 
 set background=dark
 colorscheme solarized
+"colorscheme monokai
 
 map <silent> <C-n> :NERDTreeFocus<CR>
 
