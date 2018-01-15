@@ -26,7 +26,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/SimpylFold'
 "colors
 Plugin 'altercation/vim-colors-solarized'
-"Plugin 'sickill/vim-monokai'
+Plugin 'sickill/vim-monokai'
 call vundle#end()  
 
 filetype plugin indent on
