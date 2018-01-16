@@ -46,12 +46,25 @@ set noswapfile
 set nu
 
 set background=dark
-colorscheme solarized
-"colorscheme monokai
+colorscheme ron
 
 map <silent> <C-n> :NERDTreeFocus<CR>
 
+"CtrlP options
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+    \ 'file': '\v\.(exe|so|dll)$',
+    \ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+    \ }
+
 autocmd BufRead,BufNewFile *.dyn set filetype=lsdyna
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<c-p>'
 autocmd BufRead,BufNewFile *.k set filetype=lsdyna
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 autocmd BufNewFile,BufReadPost *.shge set filetype=sh
