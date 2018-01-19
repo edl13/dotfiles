@@ -4,3 +4,5 @@
 *.aux
 *.dvi
 *.ps
+env/
+.ipynb_checkpoints/
